@@ -1,0 +1,105 @@
+*{
+    /* font-family: Arial, Helvetica, sans-serif; */
+    margin: 0;
+    padding: 0;
+    font-family: 'Baloo Bhai 2', cursive;
+}
+
+body::before{
+    filter: brightness(50%);
+    content: "";
+    width: 100%;
+    height: 100%;
+    z-index: -1;
+    top: 0px;
+    position: absolute;
+    background: url('https://images.unsplash.com/photo-1583248839364-bd7430a3cd83?ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=1951&q=80') no-repeat center center;
+}
+nav{
+    top: 0;
+    background-color: #302d2d;
+    padding: 12px;
+    position: sticky;
+}
+
+ul{
+    display: flex;
+    flex-direction: row;
+}
+
+li{
+    list-style: none;
+    padding: 3px 12px;
+}
+
+a{
+    text-decoration: none;
+    color: white;
+    font-weight: bold;
+    padding: 8px;
+    transition-duration: 0.3s;
+    border-radius: 15px;
+}
+a:hover{
+    color: black;
+    border: whitesmoke;
+    background-color: whitesmoke;
+    transition-duration: 0.2s;
+    
+}
+
+h2{
+    text-align: center;
+    color: whitesmoke;
+}
+
+.container{
+margin: 35px 0px; 
+}
+
+input, textarea{
+    /* display: block;
+    padding: 3px;
+    margin: 15px auto;
+    width: 60%;
+    outline: none;
+    border: 2px solid black;
+    border-radius: 5px; */
+
+    /* display: block;
+    padding: 8px;
+    margin: 20px auto;
+    width: 34%;
+    outline: none;
+    border: 2px solid black;
+    border-radius: 14px; */
+
+    display: block;
+    padding: 8px;
+    margin: 20px auto;
+    width: 34%;
+    outline: none;
+    border: 2px solid black;
+    border-radius: 14px;
+
+}
+
+.btn{
+    margin: 4px auto;
+    display: block;
+    padding: 5px 12px;
+    background: #302d2d;
+    color: white;
+    font-weight: bold;
+    font-size: 15px;
+    border: 2px solid black;
+    border-radius: 9px;
+    cursor: pointer;
+    outline: none;
+    transition-duration: 0.2s;
+}
+.btn:hover{
+    background-color: whitesmoke;
+    color: black;
+    transition-duration: 0.2s;
+}
